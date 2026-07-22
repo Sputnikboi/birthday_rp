@@ -1,0 +1,45 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {"layer0": "birthday:item/balloon"},
+  "elements": [
+    {
+      "name": "balloon",
+      "from": [3, 7, 3],
+      "to": [13, 19, 13],
+      "faces": {
+        "north": {"uv": [0, 0, 10, 12], "texture": "#layer0"},
+        "east":  {"uv": [0, 0, 10, 12], "texture": "#layer0"},
+        "south": {"uv": [0, 0, 10, 12], "texture": "#layer0"},
+        "west":  {"uv": [0, 0, 10, 12], "texture": "#layer0"},
+        "up":    {"uv": [0, 0, 10, 10], "texture": "#layer0"},
+        "down":  {"uv": [0, 0, 10, 10], "texture": "#layer0"}
+      }
+    },
+    {
+      "name": "knot",
+      "from": [7, 5, 7],
+      "to": [9, 7, 9],
+      "faces": {
+        "north": {"uv": [0, 0, 2, 2], "texture": "#layer0"},
+        "east":  {"uv": [0, 0, 2, 2], "texture": "#layer0"},
+        "south": {"uv": [0, 0, 2, 2], "texture": "#layer0"},
+        "west":  {"uv": [0, 0, 2, 2], "texture": "#layer0"},
+        "up":    {"uv": [0, 0, 2, 2], "texture": "#layer0"},
+        "down":  {"uv": [0, 0, 2, 2], "texture": "#layer0"}
+      }
+    },
+    {
+      "name": "string",
+      "from": [7.75, 0, 7.75],
+      "to": [8.25, 5, 8.25],
+      "faces": {
+        "north": {"uv": [0, 0, 1, 5], "texture": "#layer0"},
+        "east":  {"uv": [0, 0, 1, 5], "texture": "#layer0"},
+        "south": {"uv": [0, 0, 1, 5], "texture": "#layer0"},
+        "west":  {"uv": [0, 0, 1, 5], "texture": "#layer0"},
+        "up":    {"uv": [0, 0, 1, 1], "texture": "#layer0"},
+        "down":  {"uv": [0, 0, 1, 1], "texture": "#layer0"}
+      }
+    }
+  ]
+}
