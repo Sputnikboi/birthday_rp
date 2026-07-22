@@ -1,0 +1,9 @@
+function birthday:give/balloon_red
+function birthday:give/balloon_blue
+function birthday:give/balloon_yellow
+function birthday:give/balloon_pink
+function birthday:give/balloon_purple
+function birthday:give/balloon_green
+function birthday:give/moobloom
+function birthday:give/yippee
+function birthday:give/party_hat

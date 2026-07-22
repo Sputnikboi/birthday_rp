@@ -1,7 +1,1 @@
-{
-  "pack": {
-    "pack_format": 84,
-    "supported_formats": { "min_inclusive": 65, "max_inclusive": 99 },
-    "description": "Birthday celebration pack: balloons, mooblooms, yippee!"
-  }
-}
+{"pack":{"pack_format":84,"min_format":65,"max_format":84,"description":"Birthday celebration pack: balloons, mooblooms, yippee!"}}

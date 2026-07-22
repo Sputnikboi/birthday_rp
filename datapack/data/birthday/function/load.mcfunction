@@ -1,2 +1,3 @@
-schedule function birthday:spin 20t replace
-tellraw @a[tag=bday_admin] {"text":"[birthday] pack loaded","color":"gray"}
+scoreboard objectives add bday dummy
+scoreboard objectives add bday.greeted dummy
+tellraw @a {"text":"[Birthday] datapack loaded!","color":"light_purple"}
