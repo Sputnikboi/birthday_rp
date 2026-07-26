@@ -7,3 +7,4 @@ function birthday:give/balloon_green
 function birthday:give/moobloom
 function birthday:give/yippee
 function birthday:give/party_hat
+function birthday:give/wand
