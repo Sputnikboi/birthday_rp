@@ -62,27 +62,6 @@
           "type": "minecraft:model",
           "model": "birthday:item/yippee"
         }
-      },
-      {
-        "threshold": 90,
-        "model": {
-          "type": "minecraft:model",
-          "model": "minecraft:item/diamond"
-        }
-      },
-      {
-        "threshold": 91,
-        "model": {
-          "type": "minecraft:model",
-          "model": "birthday:item/probe_vanilla_tex"
-        }
-      },
-      {
-        "threshold": 92,
-        "model": {
-          "type": "minecraft:model",
-          "model": "birthday:item/probe_own_tex"
-        }
       }
     ]
   }
