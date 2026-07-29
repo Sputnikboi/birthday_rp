@@ -1,76 +1,86 @@
 {
   "textures": {
-    "layer0": "birthday:item/balloon_red"
+    "0": "birthday:item/balloon_red",
+    "particle": "birthday:item/balloon_red"
   },
   "elements": [
     {
-      "name": "balloon",
       "from": [
-        3,
+        5,
         7,
-        3
+        4
       ],
       "to": [
+        11,
         13,
-        19,
-        13
+        12
       ],
+      "rotation": {
+        "angle": 0,
+        "axis": "y",
+        "origin": [
+          7,
+          4,
+          7
+        ]
+      },
       "faces": {
         "north": {
           "uv": [
+            10.5,
             0,
-            0,
-            10,
-            12
+            15,
+            4.5
           ],
-          "texture": "#layer0"
+          "texture": "#0"
         },
         "east": {
           "uv": [
             0,
-            0,
-            10,
-            12
+            4.5,
+            6,
+            9
           ],
-          "texture": "#layer0"
+          "texture": "#0"
         },
         "south": {
           "uv": [
             0,
-            0,
-            10,
-            12
+            9,
+            4.5,
+            13.5
           ],
-          "texture": "#layer0"
+          "texture": "#0"
         },
         "west": {
           "uv": [
             0,
             0,
-            10,
-            12
+            6,
+            4.5
           ],
-          "texture": "#layer0"
+          "texture": "#0"
         },
         "up": {
           "uv": [
+            6,
             0,
-            0,
-            10,
-            10
+            10.5,
+            6
           ],
-          "texture": "#layer0"
+          "texture": "#0"
         },
         "down": {
           "uv": [
-            0,
-            0,
-            10,
-            10
+            6,
+            6,
+            10.5,
+            12
           ],
-          "texture": "#layer0"
+          "texture": "#0"
         }
-      }
+      },
+      "name": "balloon"
     },
     {
       "name": "knot",
@@ -87,57 +97,57 @@
       "faces": {
         "north": {
           "uv": [
-            0,
-            0,
-            2,
-            2
+            11.0,
+            1.0,
+            11.5,
+            1.5
           ],
-          "texture": "#layer0"
+          "texture": "#0"
         },
         "east": {
           "uv": [
-            0,
-            0,
-            2,
-            2
+            11.0,
+            1.0,
+            11.5,
+            1.5
           ],
-          "texture": "#layer0"
+          "texture": "#0"
         },
         "south": {
           "uv": [
-            0,
-            0,
-            2,
-            2
+            11.0,
+            1.0,
+            11.5,
+            1.5
           ],
-          "texture": "#layer0"
+          "texture": "#0"
         },
         "west": {
           "uv": [
-            0,
-            0,
-            2,
-            2
+            11.0,
+            1.0,
+            11.5,
+            1.5
           ],
-          "texture": "#layer0"
+          "texture": "#0"
         },
         "up": {
           "uv": [
-            0,
-            0,
-            2,
-            2
+            11.0,
+            1.0,
+            11.5,
+            1.5
           ],
-          "texture": "#layer0"
+          "texture": "#0"
         },
         "down": {
           "uv": [
-            0,
-            0,
-            2,
-            2
+            11.0,
+            1.0,
+            11.5,
+            1.5
           ],
-          "texture": "#layer0"
+          "texture": "#0"
         }
       }
     },
@@ -156,145 +166,110 @@
       "faces": {
         "north": {
           "uv": [
-            0,
-            0,
-            1,
-            5
+            10.75,
+            12.5,
+            11.0,
+            13.0
           ],
-          "texture": "#layer0"
+          "texture": "#0"
         },
         "east": {
           "uv": [
-            0,
-            0,
-            1,
-            5
+            10.75,
+            12.5,
+            11.0,
+            13.0
           ],
-          "texture": "#layer0"
+          "texture": "#0"
         },
         "south": {
           "uv": [
-            0,
-            0,
-            1,
-            5
+            10.75,
+            12.5,
+            11.0,
+            13.0
           ],
-          "texture": "#layer0"
+          "texture": "#0"
         },
         "west": {
           "uv": [
-            0,
-            0,
-            1,
-            5
+            10.75,
+            12.5,
+            11.0,
+            13.0
           ],
-          "texture": "#layer0"
+          "texture": "#0"
         },
         "up": {
           "uv": [
-            0,
-            0,
-            1,
-            1
+            10.75,
+            12.5,
+            11.0,
+            13.0
           ],
-          "texture": "#layer0"
+          "texture": "#0"
         },
         "down": {
           "uv": [
-            0,
-            0,
-            1,
-            1
+            10.75,
+            12.5,
+            11.0,
+            13.0
           ],
-          "texture": "#layer0"
+          "texture": "#0"
         }
       }
     }
   ],
   "display": {
     "thirdperson_righthand": {
-      "rotation": [
-        0,
-        0,
-        0
-      ],
       "translation": [
         0,
-        3,
-        1
-      ],
-      "scale": [
-        0.55,
-        0.55,
-        0.55
+        8.25,
+        2.25
       ]
     },
     "thirdperson_lefthand": {
-      "rotation": [
-        0,
-        0,
-        0
-      ],
       "translation": [
         0,
-        3,
-        1
-      ],
-      "scale": [
-        0.55,
-        0.55,
-        0.55
+        8.25,
+        2.25
       ]
     },
     "firstperson_righthand": {
       "rotation": [
-        0,
-        45,
-        0
+        -16.1,
+        6.02,
+        1.52
       ],
       "translation": [
         0,
-        3,
+        8.25,
         0
-      ],
-      "scale": [
-        0.5,
-        0.5,
-        0.5
       ]
     },
     "firstperson_lefthand": {
       "rotation": [
-        0,
-        225,
-        0
+        -16.1,
+        6.02,
+        1.52
       ],
       "translation": [
         0,
-        3,
+        8.25,
+        0
+      ]
+    },
+    "ground": {
+      "translation": [
+        0,
+        2,
         0
       ],
       "scale": [
         0.5,
         0.5,
         0.5
-      ]
-    },
-    "ground": {
-      "rotation": [
-        0,
-        0,
-        0
-      ],
-      "translation": [
-        0,
-        3,
-        0
-      ],
-      "scale": [
-        0.4,
-        0.4,
-        0.4
       ]
     },
     "gui": {
@@ -305,64 +280,27 @@
       ],
       "translation": [
         0,
-        0,
+        3.25,
         0
       ],
       "scale": [
-        0.625,
-        0.625,
-        0.625
+        1.25,
+        1.25,
+        1.25
       ]
     },
     "head": {
-      "rotation": [
-        0,
-        180,
-        0
-      ],
       "translation": [
         0,
-        13,
+        15.25,
         0
-      ],
-      "scale": [
-        1,
-        1,
-        1
       ]
     },
     "fixed": {
-      "rotation": [
-        0,
-        180,
-        0
-      ],
-      "translation": [
-        0,
-        0,
-        0
-      ],
       "scale": [
-        1,
-        1,
-        1
-      ]
-    },
-    "on_shelf": {
-      "rotation": [
-        0,
-        0,
-        0
-      ],
-      "translation": [
-        0,
-        0,
-        0
-      ],
-      "scale": [
-        0.7,
-        0.7,
-        0.7
+        0.5,
+        0.5,
+        0.5
       ]
     }
   }

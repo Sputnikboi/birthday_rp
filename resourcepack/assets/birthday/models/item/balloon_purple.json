@@ -1,1 +1,7 @@
-{"parent":"birthday:item/balloon","textures":{"layer0":"birthday:item/balloon_purple"}}
+{
+  "parent": "birthday:item/balloon",
+  "textures": {
+    "0": "birthday:item/balloon_purple",
+    "particle": "birthday:item/balloon_purple"
+  }
+}
