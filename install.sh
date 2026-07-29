@@ -12,11 +12,22 @@ DP_ZIP="birthday_dp.zip"
 # from the source tree would otherwise survive in the zip forever.
 rm -f "$RP_ZIP" "$DP_ZIP"
 
+# Build from a staging copy with normalised timestamps, and with -X to drop extra
+# file attributes. Without this, zip records mtimes and every rebuild produces a
+# different sha1 even when nothing changed - which silently desyncs
+# resource-pack-sha1 in server.properties and locks players out.
+HERE="$(pwd)"
+STAGE="$(mktemp -d)"
+trap 'rm -rf "$STAGE"' EXIT
+cp -r resourcepack "$STAGE/rp"
+cp -r datapack    "$STAGE/dp"
+find "$STAGE" -exec touch -t 202601010000 {} +
+
 # 1. Zip resource pack (contents at zip root, NOT the folder itself)
-(cd resourcepack && zip -qr "../$RP_ZIP" .)
+(cd "$STAGE/rp" && zip -qrX "$HERE/$RP_ZIP" .)
 
 # 2. Zip datapack and copy into the world's datapacks folder
-(cd datapack && zip -qr "../$DP_ZIP" .)
+(cd "$STAGE/dp" && zip -qrX "$HERE/$DP_ZIP" .)
 mkdir -p "$WORLD/datapacks"
 cp "$DP_ZIP" "$WORLD/datapacks/"
 
