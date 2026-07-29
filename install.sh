@@ -3,9 +3,14 @@
 set -e
 cd "$(dirname "$0")"
 
-WORLD="$HOME/minecraft-server-fabric/FruitbowlWorlds5"
+# Must match level-name in server.properties.
+WORLD="$HOME/minecraft-server-fabric/birthday_world"
 RP_ZIP="birthday_rp.zip"
 DP_ZIP="birthday_dp.zip"
+
+# Remove stale archives first: `zip -r` updates in place, so files deleted
+# from the source tree would otherwise survive in the zip forever.
+rm -f "$RP_ZIP" "$DP_ZIP"
 
 # 1. Zip resource pack (contents at zip root, NOT the folder itself)
 (cd resourcepack && zip -qr "../$RP_ZIP" .)

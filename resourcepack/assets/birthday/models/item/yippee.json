@@ -1,5 +1,8 @@
 {
-  "parent": "minecraft:item/generated",
+  "texture_size": [
+    16,
+    20
+  ],
   "textures": {
     "body": "birthday:item/yippee_body",
     "particle": "birthday:item/yippee_body"
@@ -7,24 +10,251 @@
   "elements": [
     {
       "name": "body",
-      "from": [3, 0, 5],
-      "to": [13, 10, 11],
+      "from": [
+        3,
+        0,
+        5
+      ],
+      "to": [
+        13,
+        10,
+        11
+      ],
       "faces": {
-        "north": {"uv": [0, 0, 10, 10], "texture": "#body"},
-        "east":  {"uv": [0, 0, 6, 10],  "texture": "#body"},
-        "south": {"uv": [0, 0, 10, 10], "texture": "#body"},
-        "west":  {"uv": [0, 0, 6, 10],  "texture": "#body"},
-        "up":    {"uv": [0, 0, 10, 6],  "texture": "#body"},
-        "down":  {"uv": [0, 0, 10, 6],  "texture": "#body"}
+        "north": {
+          "uv": [
+            0,
+            0,
+            10,
+            10
+          ],
+          "texture": "#body"
+        },
+        "east": {
+          "uv": [
+            0,
+            0,
+            6,
+            10
+          ],
+          "texture": "#body"
+        },
+        "south": {
+          "uv": [
+            0,
+            0,
+            10,
+            10
+          ],
+          "texture": "#body"
+        },
+        "west": {
+          "uv": [
+            0,
+            0,
+            6,
+            10
+          ],
+          "texture": "#body"
+        },
+        "up": {
+          "uv": [
+            0,
+            0,
+            10,
+            6
+          ],
+          "texture": "#body"
+        },
+        "down": {
+          "uv": [
+            0,
+            0,
+            10,
+            6
+          ],
+          "texture": "#body"
+        }
       }
     },
     {
       "name": "face",
-      "from": [3, 0, 4.9],
-      "to": [13, 10, 5],
+      "from": [
+        3,
+        0,
+        4.9
+      ],
+      "to": [
+        13,
+        10,
+        5
+      ],
       "faces": {
-        "north": {"uv": [0, 10, 10, 20], "texture": "#body"}
+        "north": {
+          "uv": [
+            0,
+            10,
+            10,
+            20
+          ],
+          "texture": "#body"
+        }
       }
     }
-  ]
+  ],
+  "display": {
+    "thirdperson_righthand": {
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "translation": [
+        0,
+        3,
+        1
+      ],
+      "scale": [
+        0.55,
+        0.55,
+        0.55
+      ]
+    },
+    "thirdperson_lefthand": {
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "translation": [
+        0,
+        3,
+        1
+      ],
+      "scale": [
+        0.55,
+        0.55,
+        0.55
+      ]
+    },
+    "firstperson_righthand": {
+      "rotation": [
+        0,
+        45,
+        0
+      ],
+      "translation": [
+        0,
+        3,
+        0
+      ],
+      "scale": [
+        0.5,
+        0.5,
+        0.5
+      ]
+    },
+    "firstperson_lefthand": {
+      "rotation": [
+        0,
+        225,
+        0
+      ],
+      "translation": [
+        0,
+        3,
+        0
+      ],
+      "scale": [
+        0.5,
+        0.5,
+        0.5
+      ]
+    },
+    "ground": {
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "translation": [
+        0,
+        3,
+        0
+      ],
+      "scale": [
+        0.4,
+        0.4,
+        0.4
+      ]
+    },
+    "gui": {
+      "rotation": [
+        30,
+        225,
+        0
+      ],
+      "translation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        0.625,
+        0.625,
+        0.625
+      ]
+    },
+    "head": {
+      "rotation": [
+        0,
+        180,
+        0
+      ],
+      "translation": [
+        0,
+        13,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    "fixed": {
+      "rotation": [
+        0,
+        180,
+        0
+      ],
+      "translation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    "on_shelf": {
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "translation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        0.7,
+        0.7,
+        0.7
+      ]
+    }
+  }
 }
