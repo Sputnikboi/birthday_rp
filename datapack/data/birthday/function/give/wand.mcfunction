@@ -1,1 +1,1 @@
-give @s minecraft:carrot_on_a_stick[minecraft:custom_data={bday_wand:true},minecraft:custom_name='{"text":"Decoration Placer","italic":false,"color":"light_purple"}',minecraft:lore=['{"text":"Right-click to choose a decoration","italic":false,"color":"gray"}']] 1
+give @s minecraft:carrot_on_a_stick[minecraft:custom_data={bday_wand:true},minecraft:custom_name={text:"Decoration Placer",italic:false,color:"light_purple"},minecraft:lore=[{text:"Right-click to choose a decoration",italic:false,color:"gray"}]] 1
