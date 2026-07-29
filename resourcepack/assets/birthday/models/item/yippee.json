@@ -1,7 +1,7 @@
 {
   "texture_size": [
     16,
-    20
+    32
   ],
   "textures": {
     "body": "birthday:item/yippee_body",
