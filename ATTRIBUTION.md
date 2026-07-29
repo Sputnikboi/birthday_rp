@@ -17,4 +17,4 @@ MC 26.1.2: `texture_size` removed and UVs scaled by 16/64 to suit the 16-space.
 ## Authored for this pack
 
 The balloon and party hat models and all their textures, plus the moobloom
-geometry (its textures are Earth2Java's, above). are original to this pack.
+geometry (its textures are Earth2Java's, above).
